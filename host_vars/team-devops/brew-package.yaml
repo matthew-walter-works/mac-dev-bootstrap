@@ -24,7 +24,7 @@ homebrew_installed_packages:
   - gnu-sed # GNU implementation of the famous stream editor, https://www.gnu.org/software/sed/
   - snyk/tap/snyk # Snyk cli
   - snyk/tap/snyk-iac-rules # Synk IAC Rules
-  - sunggun-yu/tap/envp # ENVP is cli wrapper that sets environment variables by profile,  https://github.com/sunggun-yu/envp
+  # - sunggun-yu/tap/envp # ENVP is cli wrapper that sets environment variables by profile,  https://github.com/sunggun-yu/envp
   - ipcalc # Calculate various network masks, etc. from a given IP address, http://jodies.de/ipcalc
   - cosign # https://docs.sigstore.dev/cosign/installation
   - gnu-time # https://www.gnu.org/software/time/, better formatting for time
