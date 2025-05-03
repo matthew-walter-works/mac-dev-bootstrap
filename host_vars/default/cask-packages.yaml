@@ -6,5 +6,6 @@ homebrew_cask_apps:
   - iterm2 # Terminal emulator as alternative to Apple's Terminal app, https://www.iterm2.com/
   - rancher # Rancher Desktop for docker alternative, https://rancherdesktop.io/
   - raycast # Productivity tool for macOS, https://raycast.com/
+  - cursor # AI-powered code editor, https://cursor.sh/
 
 homebrew_cask_uninstalled_apps: []
