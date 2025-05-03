@@ -2,7 +2,7 @@
 homebrew_taps:
   - hashicorp/tap
 
-homebrew_upgrade_all_packages: no
+homebrew_upgrade_all_packages: yes
 
 homebrew_installed_packages:
   - iproute2mac # CLI wrapper for basic network utilities on macOS - ip command, https://github.com/brona/iproute2mac
@@ -17,17 +17,17 @@ homebrew_installed_packages:
   - hashicorp/tap/terraform # Terraform
   - tflint # Linter for Terraform files, https://github.com/terraform-linters/tflint
   - tfenv # Terraform version manager, https://github.com/tfutils/tfenv
-  - circleci # CircleCI cli, https://circleci.com/docs/2.0/local-cli/
   - pidof # Display the PID number for a given process name, http://www.nightproductions.net/cli.htm
   - opa # Open Policy Agent, https://www.openpolicyagent.org
   - conftest # Conftest for OPA testing, https://www.conftest.dev/install/
   - gnu-sed # GNU implementation of the famous stream editor, https://www.gnu.org/software/sed/
-  - snyk/tap/snyk # Snyk cli
-  - snyk/tap/snyk-iac-rules # Synk IAC Rules
   # - sunggun-yu/tap/envp # ENVP is cli wrapper that sets environment variables by profile,  https://github.com/sunggun-yu/envp
   - ipcalc # Calculate various network masks, etc. from a given IP address, http://jodies.de/ipcalc
   - cosign # https://docs.sigstore.dev/cosign/installation
   - gnu-time # https://www.gnu.org/software/time/, better formatting for time
-  - colima # docker engine alternative, https://github.com/abiosoft/colima/blob/main/README.md
-
+  # - colima # docker engine alternative, https://github.com/abiosoft/colima/blob/main/README.md
+  - docker-compose # Docker Compose for container orchestration, https://docs.docker.com/compose/
+  - htop
+  - raycast # Productivity tool for macOS, https://raycast.com/
+  - cursor # AI-powered code editor, https://cursor.sh/
 homebrew_uninstalled_packages: []

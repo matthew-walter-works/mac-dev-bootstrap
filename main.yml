@@ -19,7 +19,7 @@
       tags: ['brew']
     - name: Install Homebrew Packages
       import_role:
-        name: geerlingguy.mac.homebrew
+        name: homebrew
       vars:
         # set variable for cask empty to separate the brew and cask installation
         homebrew_cask_apps: []

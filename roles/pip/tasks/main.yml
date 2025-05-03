@@ -1,3 +1,9 @@
+- name: Upgrade pip in virtual environment
+  pip:
+    name: pip
+    state: latest
+    virtualenv: "{{ ansible_env.VIRTUAL_ENV | default(omit) }}"
+  when: ansible_facts['distribution'] == "MacOSX"
 
 - name: Ensure PIP packages are installed for MacOSX.
   pip:

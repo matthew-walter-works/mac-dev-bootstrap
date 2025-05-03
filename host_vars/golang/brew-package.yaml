@@ -5,7 +5,6 @@ homebrew_upgrade_all_packages: no
 
 homebrew_installed_packages:
   - go # Golang, https://go.dev/
-  - goreleaser/tap/goreleaser # Deliver Go binaries as fast and easily as possible, https://goreleaser.com/
   - gotests # Automatically generate Go test boilerplate from your source code, https://github.com/cweill/gotests
   - gopls # Language server for the Go language, https://github.com/golang/tools/tree/master/gopls
   - delve # Debugger for the Go programming language, https://github.com/go-delve/delve
